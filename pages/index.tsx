@@ -1,14 +1,15 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '../styles/Home.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import Button from '@mui/material/Button';
+import ButtonGroup from '@mui/material/ButtonGroup';
 
 export default function Home() {
   return (
     <>
-      <h1>Hello SoftCoder</h1>
+      <Button variant="contained">Hello World</Button>
+      <ButtonGroup variant="contained" aria-label="outlined primary button group">
+        <Button>One</Button>
+        <Button>Two</Button>
+        <Button>Three</Button>
+      </ButtonGroup>
     </>
   )
 }
