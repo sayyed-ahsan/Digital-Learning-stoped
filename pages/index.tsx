@@ -1,5 +1,5 @@
-import Button from '@mui/material/Button';
-import ButtonGroup from '@mui/material/ButtonGroup';
+import Button from '@mui/material/Button'
+import ButtonGroup from '@mui/material/ButtonGroup'
 
 export default function Home() {
   return (
@@ -9,7 +9,6 @@ export default function Home() {
         <Button>One</Button>
         <Button>Two</Button>
         <Button>Three</Button>
-        <h2>Hello from Shakil</h2>
       </ButtonGroup>
     </>
   )
