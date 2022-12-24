@@ -13,6 +13,7 @@ export default function Home() {
 				<Button>Two</Button>
 				<Button>Three</Button>
 				<p>hello this is md ismail</p>
+				<p>hello this is minhaj murad</p>
 			</ButtonGroup>
 		</>
 	)
